@@ -2,7 +2,7 @@
   "name": "twitter",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://mohamedhesham569.github.io/twitter-clone",
+  "homepage": "https://mohamedhesham569.github.io/twitter",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
