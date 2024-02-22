@@ -1,0 +1,22 @@
+.side-btn{
+    background-color: var(--twiter-color);
+    border: none;
+    color: white;
+    width: 90%;
+    border-radius: 30px;
+}
+.side-btn:hover{
+    background-color: #50b6f5da;
+}
+.sidebar{
+    flex:0.3;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: fit-content;
+}
+.twitter-icon{
+    color: var(--twiter-color);
+    font-size: 50px!important;
+    margin: 20px;
+}

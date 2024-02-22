@@ -1,0 +1,25 @@
+.user-name,.name{
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.name{
+    font-size: 18px;
+}
+.post{
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+.post-avatar img{
+    width: 100%;
+    height: 85%;
+    border-radius: 50%;
+}
+.post-image{
+}
+.post-image img{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+}

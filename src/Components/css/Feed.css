@@ -1,0 +1,68 @@
+.feed{
+    flex: 0.4;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-left: 1px solid gray;
+    padding:0px 10px;
+    border-right:  1px solid gray;
+}
+.feed::-webkit-scrollbar{
+    display: none;
+}
+.post{
+    border-bottom: 1px solid #80808059;
+    border-top: 1px solid #80808059;
+}
+.posts{
+    background-color: #80808017;
+    padding: 10px;
+}
+.feed-avatar{
+    background-image: url(../../images/photo1708565108.jpeg);
+    width: 5em;
+    height: 5em;
+    background-size: cover;
+    border-radius: 50%;
+}
+.post-avatar{
+    width: 3em;
+    height: 3em;
+    background-size: cover;
+    border-radius: 50%;
+}
+.feed-header{
+    text-transform: capitalize;
+    margin: 1em;
+    border-bottom: 1px solid #8080806e;
+    padding: 5px;
+}
+.feed-box{
+    box-shadow: 0px 0px 9px #00000033;
+}
+.feed-box button{
+    background-color: var(--twiter-color);
+    border: none;
+    color: white;
+    width: fit-content;
+    border-radius: 30px;
+    border-radius: 30px;
+    padding: 4px 10px;
+    margin: 10px;
+    margin-left: 85%;
+    transition: all 0.1s ease-in-out;
+}
+.feed-box button:hover{
+    background-color: #50b6f5da;
+}
+input:focus-visible{
+    border: none!important;
+    outline: none!important;
+}
+.bagde{
+    color: var(--twiter-color);
+}
+.post-icons .icon:hover{
+    color: var(--twiter-color);
+    cursor: pointer;
+}
