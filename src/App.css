@@ -24,5 +24,15 @@ body{
   }
   .weidgets{
     display: none;
+    flex: 0!important;
+  }
+  .feed{
+    flex: 0.9!important;
+  }
+  .feed-box button{
+    margin-left: 75%!important;
+  }
+  .sidebar{
+    flex: 0.1!important;
   }
 }
